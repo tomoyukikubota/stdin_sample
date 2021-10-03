@@ -1,8 +1,6 @@
 # 問題D141: 縦書きと横書き
-# 入力例: 6, 3, 10 = 出力例: 20
-num = gets.to_i
-names = readlines
+# 入力例: 3 ↓ toro ↓ ziro ↓ saburo = 出力例: taro ziro saburo
+# int = gets.to_i
+# str = readlines
 
-names.each do |name|
-  puts name.chomp.split(' ')
-end
+

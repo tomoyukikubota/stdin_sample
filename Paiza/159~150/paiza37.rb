@@ -1,12 +1,15 @@
 # 問題D152: 部分点
-# 入力例:  ↓  = 出力例:
-S = gets.split('')
-N = gets.to_i
+# 入力例: RRRWW ↓ 3 = 出力例: Yes
 
-if N == R
-  puts "OK"
+s = gets.chomp
+n = gets.to_i
+
+i = s.count('R')
+
+if i == n
+  puts "Yes"
 else
-  puts "NG"
+  puts "No"
 end
 
 

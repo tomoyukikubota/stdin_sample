@@ -3,10 +3,6 @@
 
 num = gets.to_i
 janken = gets.split(" ").map(&:chars)
-j = janken.length
-
-g = "G"
-i = "P"
 
 
 if num == j && janken[g] == janken[i]
