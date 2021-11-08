@@ -5,9 +5,9 @@ num = gets.to_i
 janken = gets.split(" ").map(&:chars)
 
 
-if num == j && janken[g] == janken[i]
+if num == janken && janken[g] == janken[i]
   puts "Draw"
-elsif num == j && janken[g] != janken[i]
+elsif num == janken && janken[g] != janken[i]
   print janken.min
 end
  
